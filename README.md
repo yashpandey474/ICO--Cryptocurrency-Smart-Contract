@@ -1,21 +1,55 @@
-# Yashcoin ICO Smart Contract
+# Yashcoin ICO, Cryptocurrency, and Blockchain Project
 
-This is the source code for the Yashcoin ICO smart contract, a cryptocurrency project created as part of the "Blockchain A-Z" course on Udemy. The smart contract is implemented in Solidity, a programming language specifically designed for writing smart contracts on the Ethereum platform.
+This project combines the Yashcoin ICO smart contract, YASHCOIN cryptocurrency, and a basic implementation of a blockchain. It enables investors to participate in the Yashcoin initial coin offering (ICO), buy and sell Yashcoins using USD, and utilizes a blockchain network with a proof of work consensus algorithm.
 
-# Overview
-The Yashcoin ICO smart contract enables investors to participate in the initial coin offering (ICO) for Yashcoin by buying and selling Yashcoins using USD. The smart contract keeps track of the total supply of Yashcoins, the conversion rate between USD and Yashcoins, and the equity of each investor in terms of Yashcoins and USD.
+## Features
 
-# Functionality
-__buy_yashcoins__: Allows investors to buy Yashcoins by providing the investor's address and the amount of USD they wish to invest. The function calculates the equivalent number of Yashcoins based on the current USD to Yashcoin conversion rate and updates the investor's equity accordingly.
+- **Yashcoin ICO Smart Contract:** Investors can buy and sell Yashcoins using USD, while the smart contract keeps track of the total supply of Yashcoins, the conversion rate between USD and Yashcoins, and the equity of each investor in terms of Yashcoins and USD.
 
-__sell_yashcoins__: Allows investors to sell a specified amount of Yashcoins by providing the investor's address and the number of Yashcoins they wish to sell. The function deducts the sold Yashcoins from the investor's equity and updates their USD equity accordingly.
+- **YASHCOIN Cryptocurrency:** Implements a decentralized cryptocurrency built using Python and Flask. It supports the creation and mining of new blocks, adding transactions to the blockchain, and implements a consensus protocol to ensure all nodes have the same chain.
 
-__equity_in_yashcoin__: Retrieves the current equity of an investor in terms of Yashcoins by providing the investor's address.
+- **Basic Blockchain Implementation:** Provides a basic blockchain implementation using Python and Flask. It includes functionalities such as mining new blocks, retrieving the full blockchain, and checking blockchain validity.
 
-__equity_in_usd__: Retrieves the current equity of an investor in terms of USD by providing the investor's address.
+## Installation
 
-# Deployment and Interactions
-To deploy the Yashcoin ICO smart contract and interact with it, you can use Ethereum Wallet or any other Ethereum client that supports smart contract deployment and function interactions. Once deployed, you can interact with the smart contract using its address and ABI (Application Binary Interface) to call the available functions and monitor investor balances and equity.
+To set up the combined project, follow these steps:
 
-# Credits
-This project is based on the "Blockchain A-Z" course on Udemy, taught by Hadelin de Ponteves, Kirill Eremenko, SuperDatascience Team, Ligency Team. 
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies for the YASHCOIN cryptocurrency and basic blockchain implementation. You may use the provided `requirements.txt` file.
+3. Run the Yashcoin ICO smart contract by following the specific instructions provided in the respective repository.
+4. Start the YASHCOIN cryptocurrency nodes on different ports by running the corresponding Python scripts.
+5. Use an API testing tool like Postman to interact with the blockchain nodes by sending requests to the specified API endpoints.
+
+## Usage
+
+Here are some key interactions and functionalities available in the project:
+
+- **Yashcoin ICO Smart Contract**
+  - Use the `buy_yashcoins` function to buy Yashcoins by providing your address and the amount of USD you wish to invest.
+  - Use the `sell_yashcoins` function to sell a specified amount of Yashcoins by providing your address and the number of Yashcoins you wish to sell.
+  - Retrieve your current equity in terms of Yashcoins using the `equity_in_yashcoin` function.
+  - Retrieve your current equity in terms of USD using the `equity_in_usd` function.
+
+- **YASHCOIN Cryptocurrency**
+  - Mine new blocks by sending a GET request to the `mine_block` endpoint.
+  - Retrieve the full blockchain by sending a GET request to the `get_chain` endpoint.
+  - Check blockchain validity by sending a GET request to the `is_valid` endpoint.
+  - Add a transaction by sending a POST request to the `add_transaction` endpoint with the required payload.
+  - Connect new nodes to the network by sending a POST request to the `connect_node` endpoint with the list of node addresses.
+  - Update all nodes' chains to the most up-to-date one by sending a GET request to the `replace_chain` endpoint.
+
+## File Organization
+
+The project directory is organized as follows:
+
+1. yashcoin_ico/
+<ICO-related files and directories>
+2. yashcoin_cryptocurrency/
+<Cryptocurrency-related files and directories>
+3. create_blockchain/
+<Blockchain-related files and directories>
+4. README.md
+Each subdirectory contains the files specific to the ICO, cryptocurrency, and blockchain components, respectively.
+
+## Credits
+This project is based on the "Blockchain A-Z" course on Udemy, taught by Hadelin de Ponteves, Kirill Eremenko, SuperDatascience Team, Ligency
