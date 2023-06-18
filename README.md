@@ -15,10 +15,9 @@ This project combines the Yashcoin ICO smart contract, YASHCOIN cryptocurrency, 
 To set up the combined project, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Install the necessary dependencies for the YASHCOIN cryptocurrency and basic blockchain implementation. You may use the provided `requirements.txt` file.
-3. Run the Yashcoin ICO smart contract by following the specific instructions provided in the respective repository.
-4. Start the YASHCOIN cryptocurrency nodes on different ports by running the corresponding Python scripts.
-5. Use an API testing tool like Postman to interact with the blockchain nodes by sending requests to the specified API endpoints.
+2. Run the Yashcoin ICO smart contract by following the specific instructions provided in the respective repository.
+3. Start the YASHCOIN cryptocurrency nodes on different ports by running the corresponding Python scripts.
+4. Use an API testing tool like Postman to interact with the blockchain nodes by sending requests to the specified API endpoints.
 
 ## Usage
 
