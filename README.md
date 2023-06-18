@@ -42,13 +42,10 @@ Here are some key interactions and functionalities available in the project:
 
 The project directory is organized as follows:
 
-1. yashcoin_ico/
-<ICO-related files and directories>
-2. yashcoin_cryptocurrency/
-<Cryptocurrency-related files and directories>
-3. create_blockchain/
-<Blockchain-related files and directories>
-4. README.md
+- yashcoin_ico
+- yashcoin_cryptocurrency
+- create_blockchain
+- README.md
 Each subdirectory contains the files specific to the ICO, cryptocurrency, and blockchain components, respectively.
 
 ## Credits
