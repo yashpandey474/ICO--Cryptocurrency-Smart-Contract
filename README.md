@@ -1,6 +1,6 @@
 # Yashcoin ICO, Cryptocurrency, and Blockchain Project
 
-This project combines the Yashcoin ICO smart contract, YASHCOIN cryptocurrency, and a basic implementation of a blockchain. It enables investors to participate in the Yashcoin initial coin offering (ICO), buy and sell Yashcoins using USD, and utilizes a blockchain network with a proof of work consensus algorithm.
+This project was built as part of the course Blockchain A-Z on Udemy by Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team, Ligency Team, providing me a greater exposure to blockchain in terms of implementation and intuition. This implementation combines the Yashcoin ICO smart contract, YASHCOIN cryptocurrency, and a basic implementation of a blockchain. It enables investors (mock, locally) to participate in the Yashcoin initial coin offering (ICO), buy and sell Yashcoins using USD, and utilizes a blockchain network with a proof of work consensus algorithm.
 
 ## Features
 
@@ -48,4 +48,4 @@ The project directory is organized as follows:
 Each subdirectory contains the files specific to the ICO, cryptocurrency, and blockchain components, respectively.
 
 ## Credits
-This project is based on the "Blockchain A-Z" course on Udemy, taught by Hadelin de Ponteves, Kirill Eremenko, SuperDatascience Team, Ligency
+This project was built as part of the "Blockchain A-Z" course on Udemy, taught by Hadelin de Ponteves, Kirill Eremenko, SuperDatascience Team, Ligency Team
